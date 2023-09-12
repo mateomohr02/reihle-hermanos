@@ -1,0 +1,163 @@
+.container{
+    background-color: #EEF1E5;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 90vh;
+    color: #523C1F;
+}
+
+.title{
+    margin: 0.5rem;
+    padding: 0;
+    color:#523C1F;
+    font-size: 1.8rem;
+        
+}
+
+
+.linksContainerDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.icons{
+    font-size: 2rem;
+    color: #523C1F;
+}
+
+.columnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.leftColumn {
+    flex: 1;
+}
+  
+.rightColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.links{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #523C1F;
+    font-weight: 500;
+}
+.map{
+    border: none;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.inputContainer{
+    padding: 6px;
+    background-color: #C4C5B5;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContact{
+    width: 30vw;
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    font-family: "Inter";
+    
+}
+
+.message{
+    height: 15rem;
+}
+
+.messageInput {
+    font-family: "Inter";
+}
+
+.submitBtn{
+    border: none;
+    background-color: #C4C5B5;
+    width: 7rem;
+    height: 2.2rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-family: 'Inter';
+    color: #523C1F;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: left;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .title{
+        margin: 0.5rem;
+        padding: 0;
+        color:#523C1F;
+        font-size: 1.5rem;       
+    }
+
+    .map{
+        width: 90%;
+        height: 70%;
+    }
+
+    .links{
+        font-size: 1rem;
+        text-decoration: none;
+        color: #523C1F;
+        font-weight: 500;
+    }
+
+    .rightColumn {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .inputContact{
+        width: 80vw;
+        border-radius: 5px;
+        border: none;
+        font-family: "Inter";
+    }
+
+    .messageInput{
+        font-family: "Inter";
+    }
+
+
+
+    .submitBtn{
+        border: none;
+        background-color: #C4C5B5;
+        width: 7rem;
+        height: 2.2rem;
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        margin: 1.5rem;
+        font-family: 'Inter';
+        color: #523C1F;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}

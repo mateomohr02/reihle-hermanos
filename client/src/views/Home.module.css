@@ -1,0 +1,296 @@
+.container{
+    background-color:#EEF1E5;
+}
+
+.image{
+    opacity: 0.8;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.textImage{
+    text-align: left;
+    margin-left: 4rem;
+    font-family: 'Inter';
+    font-size: 2rem;
+    font-weight: 540;
+    color: #fff;
+
+    position: absolute;
+    top: 50%;
+}
+
+.firstContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagePeople{
+    width: 45vw;
+    border-radius: 5px;
+}
+
+.textContainer{
+    margin: 1rem;
+    background-color: #C4C5B5;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 4rem;
+    
+}
+
+.textCompromiso{
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: #523C1F;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.imageContainer{
+    background-color: #C4C5B5 ;
+    padding: 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    margin: 1rem;
+    /* margin-left: 3rem; */
+    border-radius: 5px;
+}
+
+.imageMachine{
+    width: 41vw;
+    border-radius: 5px;
+}
+
+.titleServices{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #523C1F;
+    font-family: 'Inter';
+}
+
+.servicesContainer{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #C4C5B5;
+    margin: 1rem;
+}
+
+.servicesImages{
+    width: 24.8rem;
+    height: 16.5rem;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.thirdContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imageWrapper {
+    position: relative;
+  }
+
+.servicesText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+    margin: 0;
+    padding: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    
+  }
+
+.expandedServiceContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #C4C5B5;
+    margin-bottom: 0.5rem;
+}
+
+.expandedServiceTitle{
+    color: #523C1F;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Inter';
+    margin-bottom: 0;
+}
+
+.expandedService{
+    margin: 0.5rem;
+    color: #523C1F;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Inter';
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .image{
+        height: 400px;
+    }
+    .imageContainer{
+        margin: 0.5rem !important;
+    }
+
+    .textContainer{
+        margin: 1rem !important;
+    }
+
+    .textImage{
+        text-align: center;
+        margin-left: 21%;
+        font-family: 'Inter';
+        font-size: 0.5rem;
+        font-weight: 540;
+        color: #fff;
+
+        position: absolute;
+        top: 35%;
+    }
+
+    .firstContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .imagePeople{
+        width: 88vw;
+        border-radius: 5px;
+    }
+    
+    .textContainer{
+        margin: 1rem;
+        background-color: #C4C5B5;
+        border-radius: 5px;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        padding: 2rem;
+        
+    }
+
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .imageContainer{
+        background-color: #C4C5B5 ;
+        padding: 0.5rem;
+        width: fit-content;
+        height: fit-content;
+        margin: 1rem;
+        /* margin-left: 3rem; */
+        border-radius: 5px;
+    }
+    
+    .imageMachine{
+        width: 88vw;
+        border-radius: 5px;
+    }
+    
+    .servicesContainer{
+        padding: 7px;
+        border-radius: 5px;
+        background-color: #C4C5B5;
+        margin: 0.5rem;
+        width: 40%;
+    }
+    
+    .servicesImages{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        opacity: 0.7;
+        margin: 0;        
+    }
+    
+    .thirdContainer{
+        display: flex;
+        flex-wrap: wrap; /* Esto permite que los elementos fluyan en filas */
+        justify-content: center;
+    }
+
+    .imageWrapper {
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0rem;
+        position: relative;
+      }
+    
+    .servicesText {
+        position: absolute;
+        bottom: 0;
+        left: 2%;
+        width: fit-content;
+        margin: 0;
+        padding: 0.5rem;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: 'Inter';
+      }
+    
+    .expandedServiceContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #C4C5B5;
+    }
+
+    .expandedServiceTitle{
+        color: #523C1F;
+        font-size: 0.8rem;
+        font-weight: bolder;
+        font-family: 'Inter';
+        margin-bottom: 0;
+    }
+
+    .expandedService{
+        max-width: 100%; /* Ajustar al ancho de la pantalla */
+        font-size: 0.5rem; /* Tamaño de fuente (ajusta según tus preferencias) */
+        font-weight: bolder; /* Peso de fuente (ajusta según tus preferencias) */
+        font-family: 'Inter'; /* Fuente (ajusta según tus preferencias) */
+        text-align: left; /* Alineación del texto (ajusta según tus preferencias) */
+        color: #523C1F;
+    }
+
+
+}
+
+

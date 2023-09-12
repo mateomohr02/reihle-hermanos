@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C4C5B5;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 10vh;
+}
+
+.linksContainerDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons{
+    font-size: 1.5rem;
+}
+
+.links{
+    margin: 0.8rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1rem;
+}
+
+@media(max-width:768px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+        background-color: #C4C5B5;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .linksContainer{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .links{
+        color: #523C1F;
+        font-size: 0.7rem;
+        font-weight: 700;
+        font-family: 'Inter';
+        align-items: center;
+        justify-content: center;
+    }
+}

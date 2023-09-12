@@ -1,0 +1,112 @@
+  .container {
+      background-color: #eef1e5;
+      height: 80vh;
+    }
+  
+  .title {
+    text-align: left;
+    margin: 0;
+    padding-left: 17rem;
+    color: #523c1f;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexItem{
+    margin: 1rem;
+  }  
+
+  .imgMujeres {
+    width: 15vw;
+    border-radius: 5px;
+  }
+  
+  .imgGroup {
+    width: 25.6vw;
+    border-radius: 5px;
+  }
+  
+  .textContainer {
+    background-color: #c4c5b5;
+    padding: 1.5rem;
+    text-align: left;
+    width: 20vw;
+    color: #523c1f;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+
+  .imgContainer{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #c4c5b5;
+  }
+
+  @media (max-width: 768px) {
+    
+    .container{
+      padding-top: 0.5rem;
+      height: fit-content;
+    }
+
+    .title {
+      text-align: left;
+      font-size: 1.5rem;
+      margin: 0.5rem;
+      padding-left: 0rem;
+      color: #523c1f;
+    }
+
+    .flexContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    
+    .flexItem {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 1.2rem;
+    }
+
+    .imgMujeres {
+      width: 83vw;
+      border-radius: 5px;
+    }
+    
+    .imgGroup {
+      width: 83vw;
+      border-radius: 5px;
+    }
+
+    .imgContainer{
+      padding: 8px;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+      background-color: #c4c5b5;
+    }
+
+    .textContainer {
+      background-color: #c4c5b5;
+      padding: 1.5rem;
+      text-align: left;
+      width: 87%;
+      color: #523c1f;
+      font-family: "Inter";
+      font-weight: 600;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+  }
